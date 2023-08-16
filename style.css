@@ -1,0 +1,249 @@
+html {
+  font-size: 20px; 
+  font-family:  var(--font-family-display,'Charlie Display',sans-serif);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff5ee;
+}
+
+header {
+  text-align: center;
+  padding: 80px 0;
+  background-color: #66cdaa;
+  color: white;
+}
+
+h1 {
+  font-size: 72px;
+  margin-top: 0;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+a:link{
+    color:coral
+}
+
+a:visited{
+    color:crimson
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#about {
+  padding: 80px;
+  background-color: #f5f5f5;
+  color: black;
+  text-align: center;
+}
+
+#about h2 {
+  margin-top: 0;
+  font-size: 32px;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+#about p {
+  margin: 20px 0;
+}
+
+#about button {
+  color: #66cdaa;
+    text-decoration: none;
+    border: 2px solid #66cdaa;
+    padding: 20px 40px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size:20px;
+}
+
+#about button:hover {
+  background-color: #66cdaa;
+    color: white;
+}
+
+  #services {
+    padding: 50px;
+    background-color: #66cdaa;
+    color: white;
+    text-align: center;
+  }
+
+  #cta {
+    padding: 50px;
+    background-color: #f5f5f5;
+    color: black;
+    text-align: center;
+  }
+
+  #services h2, #cta h2 {
+    margin-top: 0;
+  }
+
+  #services ul, #cta ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  #services li {
+    line-height:2;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+
+  #cta li {
+    line-height:2;
+    margin: 10px 0;
+  }
+
+  #cta nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  #cta nav li {
+    line-height:2;
+    margin: 0 15px;
+  }
+
+  #cta nav a {
+    color: #66cdaa;
+    text-decoration: none;
+    border: 2px solid #66cdaa;
+    padding: 10px 20px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  #cta nav a:hover {
+    background-color: #66cdaa;
+    color: white;
+  }
+
+p,li {
+    font-size: 25px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+  
+  footer {
+    padding: 24px;
+    background-color: #66cdaa;
+    text-align: center;
+  }
+
+  footer p {
+    margin: 0;
+    color: white;
+    font-style: italic;
+  }
+
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 16px;
+  }
+
+  .social-links li {
+    line-height: 1.5;
+    display: inline-block;
+    margin-right: 16px;
+  }
+
+  .social-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .social-links a:hover {
+    color: #42b983;
+  }
+
+
+
+
+
+  #enter-room {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.3);    
+  }
+  
+  #enter-room h2 {
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  button[type="submit"] {
+    color: #66cdaa;
+    text-decoration: none;
+    border: 2px solid #66cdaa;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 20px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #66cdaa;
+    color: white;
+  }
+
+  #generate-room {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.3);    
+  }
+  
+  #generate-room h2 {
+    color: #333;
+  }
